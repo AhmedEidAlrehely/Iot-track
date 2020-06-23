@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<title>Robot Control Panel</title>
+<head>
+
+<style>
+body {
+  background-color: DarkSlateGrey;
+}
+
+h1 {
+  color: Black;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+</style>
+
+<style>
+
+
+.button1 {
+  border-radius: 12px;
+  background-color: GhostWhite;
+  border: solid;
+  color: red;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  position: fixed;
+  top: 50%;
+  left: 61%;
+  margin: 5px 5px;
+  cursor: pointer;
+}
+
+.button2 {
+ border-radius: 12px;
+   background-color: grey;
+  border: solid;
+  color: cyan;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  position: fixed;
+  top:28%;
+  bottom:80;
+  right:28%; 
+  lift:60%;
+  margin: 15px 30px;
+  cursor: pointer;
+
+}
+.button3
+ {
+border-radius: 12px;
+  background-color: grey;
+  border: solid;
+  color: cyan ;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  position: fixed;
+  top: 50%;
+  Right: 14%;
+  margin: 10px 50px;
+  cursor: pointer;
+}
+.button4
+{
+border-radius: 12px;
+  background-color: grey;
+  border: solid;
+  color: cyan;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  position: fixed;
+  top:70;
+  bottom:18%;
+  right:27%; 
+  lift:60%;
+  margin: 15px 30px;
+  cursor: pointer;
+
+}
+
+
+.button5
+{
+border-radius: 12px;
+  background-color: grey;
+  border: solid;
+  color: cyan ;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  position: fixed;
+  top: 50%;
+  left: 44%;
+  margin: 10px 50px;
+  cursor: pointer;
+
+}
+</style>
+
+
+</head>
+<body>
+
+<h1 style="background-color:cyan;"> Robot Control Panel</h1>
+<p>Please press one of the buttons to move the robot:</p>
+
+<button class="button button1">Stop</button>
+<button class="button button2">Forward</button>
+<button class="button button3">Right</button>
+<button class="button button4">Backward</button>
+<button class="button button5">Lift</button>
+
+</body>
+</html>
